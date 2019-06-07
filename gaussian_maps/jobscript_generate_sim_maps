@@ -13,4 +13,4 @@ module load dev_tools/oct2017/python-Anaconda-2-5.0.0.1
 
 cd /share/data1/knaidoo/cmb_hawking_rings/gaussian_maps/
 
-python generate_sim_map.py
+python generate_sim_maps.py
