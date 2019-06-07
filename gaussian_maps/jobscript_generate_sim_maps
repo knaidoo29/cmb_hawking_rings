@@ -1,0 +1,16 @@
+#!/bin/bash
+#PBS -S /bin/bash
+#PBS -q cores16
+#PBS -N cmb_sims
+#PBS -l nodes=1:ppn=1
+#PBS -l mem=4gb
+#PBS -l walltime=120:00:00
+#PBS -j oe
+
+ulimit -Ss unlimited
+
+module load dev_tools/oct2017/python-Anaconda-2-5.0.0.1
+
+cd /share/data1/knaidoo/cmb_hawking_rings/gaussian_maps/
+
+python generate_sim_map.py

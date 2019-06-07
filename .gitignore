@@ -1,0 +1,12 @@
+# Ignore temp files...
+
+*.DS_Store
+
+# -----------------
+# ==> gaussian_maps
+
+# ignore cmb maps
+gaussian_maps/maps/*
+
+# ignore *.pyc
+gaussian_maps/*.pyc
