@@ -10,3 +10,9 @@ gaussian_maps/maps/*
 
 # ignore *.pyc
 gaussian_maps/*.pyc
+
+# -------------
+# ==> add_rings
+
+# ignore ipynb checkpoints
+*.ipynb_checkpoints/*
